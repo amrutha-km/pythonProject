@@ -25,7 +25,7 @@ class TestCalculator(unittest.TestCase):
         self.calc=Calculator()
         result=self.calc.sub(10,3)
         expected=7
-        self.assertEqual(result,expected) @unittest.skip('some reason')
+        self.assertEqual(result,expected) @ unittest.skip('some reason')
 
     def test_mul(self):
         '''Test case function for multiplication'''
